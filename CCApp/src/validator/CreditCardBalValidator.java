@@ -1,7 +1,8 @@
 package validator;
 
-import model.Card;
-import model.Transaction;
+import interfaces.Card;
+import interfaces.Transaction;
+import interfaces.ValidatorI;
 
 public class CreditCardBalValidator implements ValidatorI {
 

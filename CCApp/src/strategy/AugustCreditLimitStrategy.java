@@ -1,5 +1,6 @@
 package strategy;
 
+import interfaces.CreditLimitStrategy;
 import model.Customer;
 
 public class AugustCreditLimitStrategy implements CreditLimitStrategy {

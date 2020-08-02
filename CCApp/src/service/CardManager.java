@@ -2,9 +2,9 @@ package service;
 
 import exception.NoCardForCustomerException;
 import factory.StrategyFactory;
+import interfaces.CreditLimitStrategy;
 import model.Bank;
 import model.Customer;
-import strategy.CreditLimitStrategy;
 
 public class CardManager {
 

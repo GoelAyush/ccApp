@@ -3,7 +3,8 @@ package model;
 import java.util.Date;
 
 import factory.ValidatorFactory;
-import validator.ValidatorI;
+import interfaces.Transaction;
+import interfaces.ValidatorI;
 
 public class CreditCard extends CardAbs {
 	

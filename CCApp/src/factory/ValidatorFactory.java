@@ -1,7 +1,7 @@
 package factory;
 
+import interfaces.ValidatorI;
 import validator.CreditCardBalValidator;
-import validator.ValidatorI;
 
 public class ValidatorFactory {
 	

@@ -1,5 +1,7 @@
 package model;
 
+import interfaces.Card;
+
 public class Customer {
 
 	Long customerID;

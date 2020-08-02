@@ -1,4 +1,4 @@
-package strategy;
+package interfaces;
 
 import model.Customer;
 

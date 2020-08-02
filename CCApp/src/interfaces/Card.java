@@ -1,4 +1,6 @@
-package model;
+package interfaces;
+
+import model.CardStatus;
 
 public interface Card {
 	public boolean blockCard();

@@ -1,7 +1,7 @@
 package factory;
 
+import interfaces.CreditLimitStrategy;
 import strategy.AugustCreditLimitStrategy;
-import strategy.CreditLimitStrategy;
 
 public class StrategyFactory {
 
