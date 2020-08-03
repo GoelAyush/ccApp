@@ -1,5 +1,6 @@
 package model;
 
+import enums.CardStatus;
 import interfaces.Card;
 
 public class Customer {

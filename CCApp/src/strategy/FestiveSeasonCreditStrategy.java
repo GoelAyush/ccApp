@@ -19,7 +19,14 @@ public class FestiveSeasonCreditStrategy implements CreditLimitStrategy {
 
 	@Override
 	public int getValidityDays(Customer customer) {
+		// Based on customer profile
 		return new Integer("Some Number");
+	}
+
+	@Override
+	public boolean shouldIssueCard(Customer customer) {
+		// Based on customer profile
+		return true;
 	}
 
 }

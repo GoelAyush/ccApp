@@ -4,7 +4,7 @@ import interfaces.CreditLimitStrategy;
 import model.Customer;
 
 public class AugustCreditLimitStrategy implements CreditLimitStrategy {
-	
+
 	@Override
 	public Double getCashBalance(Customer customer) {
 		// Based on customer profile
@@ -19,6 +19,13 @@ public class AugustCreditLimitStrategy implements CreditLimitStrategy {
 
 	@Override
 	public int getValidityDays(Customer customer) {
+		// Based on customer profile
 		return new Integer("Some Number");
+	}
+
+	@Override
+	public boolean shouldIssueCard(Customer customer) {
+		// Based on customer profile
+		return false;
 	}
 }
